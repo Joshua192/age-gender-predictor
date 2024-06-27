@@ -1,5 +1,6 @@
-# arg-detector
-Age, Race, Gender detector with web application written with vanilla JS and Python
+# ag-detector
+Age and Gender detector with web application written with vanilla JS and Python.
+Transfer learned model from this github repo: https://github.com/Sobika2531/Age-Gender-And-Race-Detection-Using-CNN/tree/main
 
 # What is this?
 This is a web application that allows a user to take a picture and obtain a prediction for the age and gender for every face detected in the image provided.
