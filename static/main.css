@@ -1,0 +1,138 @@
+html {
+  /* font-family: "Lucida Grande", "Arial", sans-serif; */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+  margin: 0;
+}
+
+#video {
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  width: 320px;
+  height: 240px;
+}
+
+#photo {
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  width: 320px;
+  height: 240px;
+}
+
+#canvas {
+  display: none;
+}
+
+.camera {
+  width: 340px;
+  display: inline-block;
+}
+
+.output {
+  width: 340px;
+  display: inline-block;
+}
+
+#video,
+#canvas {
+  position: relative;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Ensure canvas is above the video */
+}
+
+#startbutton {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 32px;
+  background-color: rgba(0, 150, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  color: rgba(255, 255, 255, 1);
+}
+
+#header {
+  padding: 60px;
+  text-align: center;
+}
+
+.contentarea {
+  font-size: 16px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  width: 760px;
+}
+
+.cameraButtons {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#upload {
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="file"]::file-selector-button,
+button {
+  border: 2px solid #6c5ce7;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  background-color: #a29bfe;
+  transition: 1s;
+}
+
+input[type="file"]::file-selector-button:hover,
+button:hover {
+  background-color: #81ecec;
+  border: 2px solid #00cec9;
+}
+
+/* WHY IS THIS NOT WORKING */
+h1 {
+  color: white !important;
+}
+
+#header {
+  background-color: #a29bfe;
+}
+
+body {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+table {
+  /* width: 80%; */
+  height: 75%;
+  /* border: none; */
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th {
+  height: 15% !important;
+}
+
+td {
+  border: 1px solid #ddd;
+  /* padding: 8px; */
+  text-align: center;
+  /* TODO: Also center the camera elements and all elements. */
+
+  width: 50% !important;
+  height: 85% !important;
+  /* TODO: set to take up whole screen. work with whole table, set top to be 15%, td to 85%, remove all padding.  */
+}

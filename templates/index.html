@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Main Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- 
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https: //ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <script src="http: //maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+        <link rel="stylesheet" href="{{url_for ('static', filename='main.css')}}" type="text/css" media="all">
+        <script src="{{url_for ('static', filename='capture.js')}}"></script>
+
+    </head>
+
+    <body width="device-width">
+        <thead>
+            <div class=" jumbotron text-center" id="header" width="100%">
+                <h1> Convolutional Neural Network for Age and Gender Prediction </h1>
+            </div>
+        </thead>
+        <table id="table" style="border : none; border-collapse: collapse;">
+
+            <tbody>
+                <td>
+                    <div class="left-content">
+                        <div class="centered">
+                            <h3>Upload Image</h3>
+                            <div id="img-area">
+                                <p> Image must not be larger than 16MB </p>
+                                <input id="upload" name="file-btn" type="file" accept="image/*"
+                                    onchange="uploadAndDisplayImage(event)" />
+                                <img id="display-pic" width="198" style="display:none;" />
+                            </div>
+
+                            <!-- TODO: How will you handle users uploading non image files? JS functions for checks?? -->
+                            <div id="modify-and-confirm-container">
+                                <button id="retryButton" style="display: none;"> Retry Upload </button>
+                                <button onclick="filePostImage()" id="confirmButtonLeft" style="display: none;"> Confirm
+                                    Photo </button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="right-content">
+                        <div class="centered">
+                            <h3>Capture Image</h3>
+                            <div id="container">
+                                <!-- Insert or Reference camera overlay here -->
+                                <!-- TODO: CSS Camera into Overlay/Pop-up style -->
+                                <button onclick="openCameraOverlay()" id="openButton">Click to Open Camera</button>
+                                <div class="contentarea" style="display: block;">
+
+                                    <div class="camera" id="camera" style="display: none;">
+                                        <!-- TODO: Set padding for image and video the same amount. -->
+                                        <video id="video">Video stream not available.</video>
+
+                                        <canvas id="canvas"></canvas>
+
+                                        <div class="output">
+                                            <img id="photo" alt="The screen capture should appear in this box."
+                                                style="display: none;">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="cameraButtons" id="cameraButtons" style="display: flex;">
+
+                                        <button onclick="pictureButton()" id="takePhotoButton"
+                                            style="display: none;">Take
+                                            photo</button>
+
+                                        <button onclick="restartCamera()" id="retakePhotoButton"
+                                            style="display: none;">Retake
+                                            Photo</button>
+
+                                        <button onclick="cameraPostImage()" id="confirmButtonRight"
+                                            style="display: none;">Confirm
+                                            Photo
+                                        </button>
+
+                                        <button onclick="closeCameraOverlay()" id="closeButton"
+                                            style="display: none;">Close
+                                            Camera</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </td>
+            </tbody>
+        </table>
+        <button onclick="restartSite()" id="tryAgain" style="display: none;">Try Again?</button>
+    </body>
+    <style>
+
+
+    </style>
+
+    <script>
+
+    </script>
+
+    </body>
+
+</html>
