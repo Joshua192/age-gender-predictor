@@ -38,21 +38,27 @@ Home Page
 
 Beginning page. Buttons presented 'Upload File' or 'Take Picture'.
 
+
 ![image](https://github.com/user-attachments/assets/de641819-893a-4ed4-8deb-6b76bb2016ee)
 
 Sample of Uploading File from local system
 
+
 ![image](https://github.com/user-attachments/assets/6a6f8eb1-7f56-4af9-af3f-104ee57accd5)
+
 Camera is accessed and video stream shown
+
 
 ![image](https://github.com/user-attachments/assets/2f1bf45d-c539-4ab9-a8e4-838c48256bbf)
 
 User Captured Image Displayed on Screen
 
+
 ![image](https://github.com/user-attachments/assets/bd011d46-71ac-4730-91da-44e1cdd76d9a)
 
 Final Result Displayed on Screen
  
+
 ![image](https://github.com/user-attachments/assets/0f71b897-eeec-4d02-943b-e46f1031ce24)
 
 * Web Application can handle multiple faces!
