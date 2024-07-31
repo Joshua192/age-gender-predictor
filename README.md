@@ -32,7 +32,7 @@ It initally started as a mandatory project for my final year dissertation, but h
 8.	Feel free to capture a wide range of photos; smiling, frowning, straight-faced, even pulling funny faces works for me. The more variety of pictures, the better.
 
 # Visual Walkthrough of Web Application
-<div style="text-align: center;">
+<p style="text-align: center;">
 
 ![image](https://github.com/user-attachments/assets/85928536-60af-4d73-931c-a2070fca6e13)
 
@@ -63,6 +63,6 @@ Final Result Displayed on Screen
 
 * Web Application can handle multiple faces!
 
-</div>
+</p>
 
  
