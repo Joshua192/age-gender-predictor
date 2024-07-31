@@ -23,3 +23,12 @@ inside improved_model.ipynb, experimentation done with model can be found, namel
 It initally started as a mandatory project for my final year dissertation, but has now evolved into an application I created to apply my knowledge of web real-time communications.
 
 **TBD: Demonstration of features and visual aids for explanation of step-by-step process**
+![image](https://github.com/user-attachments/assets/85928536-60af-4d73-931c-a2070fca6e13)
+
+![image](https://github.com/user-attachments/assets/de641819-893a-4ed4-8deb-6b76bb2016ee)
+
+![image](https://github.com/user-attachments/assets/6a6f8eb1-7f56-4af9-af3f-104ee57accd5)
+
+![image](https://github.com/user-attachments/assets/2f1bf45d-c539-4ab9-a8e4-838c48256bbf)
+
+![image](https://github.com/user-attachments/assets/bd011d46-71ac-4730-91da-44e1cdd76d9a)
