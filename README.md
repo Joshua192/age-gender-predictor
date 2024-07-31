@@ -59,9 +59,9 @@ User Captured Image Displayed on Screen
 Final Result Displayed on Screen
  
 
-![image](https://github.com/user-attachments/assets/0f71b897-eeec-4d02-943b-e46f1031ce24)
+Web Application can handle multiple faces! (Results are from an old version of the app, functions still work as expected)
 
-* Web Application can handle multiple faces!
+![image](https://github.com/user-attachments/assets/0f71b897-eeec-4d02-943b-e46f1031ce24)
 
 </p>
 
