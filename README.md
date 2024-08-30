@@ -7,7 +7,7 @@ This is a web application that allows a user to take a picture and obtain a pred
 This works for both the camera and file upload.
 
 # How does it work?
-The application can be run by running the app.py flask file and navigating to the localhost port 5500 (http://127.0.0.1:5000/).
+The application can be run by running the app.py flask file and navigating to the localhost port 5000 (http://127.0.0.1:5000/).
 
 JavaScript code found in capture.js is responsible for the handling of uploading, sending image data as well as handling the predicted responses from the age/gender prediction model.
 Python code found in improved_model.py and app.py are responsible for:
